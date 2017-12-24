@@ -4,7 +4,8 @@ A small Tower-Defense 3D game made in C++ OpenGL from scratch for an university 
 **If problems are encountered:
 Please check if you have glut32.dll in the executable folder, and if you build one, check your dependencies :)**
 
-*Dependencies are: GLEW, GLFW, GLM, STBI and GLUT*
+*Dependencies are: GLEW, GLFW, GLM, STBI and GLUT.*
+Solution has fully been made under Debug configuration, x86
 
 **To see the project arborescence as I do, on Visual, on the solution explorer, click on "show all files", you will see res, src folders and the ClassDiagram.cd file.**
 
