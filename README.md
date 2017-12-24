@@ -18,7 +18,7 @@ Solution has fully been made under Debug configuration, x86, win32
 Below are images that show my project configuration:
 
 - Includes
-https://imgur.com/pLkEpA6
+https://imgur.com/a/Pr417
 
 - Preprocessor
 https://imgur.com/a/SybpI
