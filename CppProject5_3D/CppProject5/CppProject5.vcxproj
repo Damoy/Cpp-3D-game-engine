@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CCB6E698-6AA0-4322-A6F5-6F308439A852}</ProjectGuid>
+    <RootNamespace>CppProject5</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>CppProject5</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\GLUT\include;$(SolutionDir)Dependencies\GLM;$(SolutionDir)Dependencies\STBI\include;$(SolutionDir)Dependencies\GLFW\include;$(SolutionDir)Dependencies\GLEW\include;$(SolutionDir)$(ProjectName)\src</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;GLEW_STATIC;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)Dependencies\GLUT\lib;$(SolutionDir)Dependencies\GLFW\lib-vc2015;$(SolutionDir)Dependencies\GLEW\lib\Release\Win32</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glut32.lib;glew32s.lib;glfw3.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>vc120.lib;msvcrt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\GLUT\include;$(SolutionDir)Dependencies\GLM;$(SolutionDir)Dependencies\STBI\include;$(SolutionDir)Dependencies\GLFW\include;$(SolutionDir)Dependencies\GLEW\include;$(SolutionDir)$(ProjectName)\src</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;GLEW_STATIC;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)Dependencies\GLUT\lib;$(SolutionDir)Dependencies\GLFW\lib-vc2015;$(SolutionDir)Dependencies\GLEW\lib\Release\Win32</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glut32.lib;glew32s.lib;glfw3.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>vc120.lib;msvcrt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\world\Level2.cpp" />
+    <ClCompile Include="src\shop\Shop.cpp" />
+    <ClCompile Include="src\entities\Player.cpp" />
+    <ClCompile Include="src\world\LevelFactory.cpp" />
+    <ClCompile Include="src\utils\maths\AABB.cpp" />
+    <ClCompile Include="src\gui\GUITexture.cpp" />
+    <ClCompile Include="src\renderEngine\GuiRenderer.cpp" />
+    <ClCompile Include="src\shaders\GuiShader.cpp" />
+    <ClCompile Include="src\entities\towers\IntelligentTower.cpp" />
+    <ClCompile Include="src\entities\projectiles\IntelligentTowerProjectile.cpp" />
+    <ClCompile Include="src\entities\Attacker.cpp" />
+    <ClCompile Include="src\entities\Destructible.cpp" />
+    <ClCompile Include="src\entities\projectiles\Projectile.cpp" />
+    <ClCompile Include="src\entities\projectiles\SampleTowerProjectile.cpp" />
+    <ClCompile Include="src\entities\enemies\SampleAsteroid.cpp" />
+    <ClCompile Include="src\gameEngine\Configs.cpp" />
+    <ClCompile Include="src\input\MouseTransformer.cpp" />
+    <ClCompile Include="src\entities\enemies\Asteroid.cpp" />
+    <ClCompile Include="src\entities\enemies\Enemy.cpp" />
+    <ClCompile Include="src\world\Level1.cpp" />
+    <ClCompile Include="src\world\Level.cpp" />
+    <ClCompile Include="src\renderEngine\SelectionRenderer.cpp" />
+    <ClCompile Include="src\shaders\SelectionShader.cpp" />
+    <ClCompile Include="src\entities\towers\SampleTower.cpp" />
+    <ClCompile Include="src\world\Map.cpp" />
+    <ClCompile Include="src\entities\graphics\Camera.cpp" />
+    <ClCompile Include="src\entities\graphics\Light.cpp" />
+    <ClCompile Include="src\shaders\EntityShader.cpp" />
+    <ClCompile Include="src\renderEngine\Renderer.cpp" />
+    <ClCompile Include="src\renderEngine\MainRenderer.cpp" />
+    <ClCompile Include="src\renderEngine\EntityRenderer.cpp" />
+    <ClCompile Include="src\renderEngine\MapRenderer.cpp" />
+    <ClCompile Include="src\shaders\MapShader.cpp" />
+    <ClCompile Include="src\entities\Entity.cpp" />
+    <ClCompile Include="src\gameEngine\GameEngine.cpp" />
+    <ClCompile Include="src\gameEngine\GameMemory.cpp" />
+    <ClCompile Include="src\input\InputController.cpp" />
+    <ClCompile Include="src\loaders\ModelLoader.cpp" />
+    <ClCompile Include="src\loaders\TextureLoader.cpp" />
+    <ClCompile Include="src\main\mainGame.cpp" />
+    <ClCompile Include="src\models\ModelBank.cpp" />
+    <ClCompile Include="src\models\RawModel.cpp" />
+    <ClCompile Include="src\models\TexturedModel.cpp" />
+    <ClCompile Include="src\renderEngine\WindowManager.cpp" />
+    <ClCompile Include="src\shaders\SampleShader.cpp" />
+    <ClCompile Include="src\shaders\ShaderProgram.cpp" />
+    <ClCompile Include="src\textures\ModelTexture.cpp" />
+    <ClCompile Include="src\utils\checkers\Checker.cpp" />
+    <ClCompile Include="src\utils\colors\Color.cpp" />
+    <ClCompile Include="src\utils\logs\Logs.cpp" />
+    <ClCompile Include="src\utils\maths\Maths.cpp" />
+    <ClCompile Include="src\world\Tile.cpp" />
+    <ClCompile Include="src\entities\towers\Tower.cpp" />
+    <ClCompile Include="src\renderEngine\TextRenderer.cpp" />
+    <ClCompile Include="src\shaders\TextShader.cpp" />
+    <ClCompile Include="src\entities\graphics\Text.cpp" />
+    <ClCompile Include="src\world\World.cpp" />
+    <ClCompile Include="src\entities\projectiles\TowerProjectile.cpp" />
+    <ClCompile Include="src\utils\time\Timer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\world\Level2.h" />
+    <ClInclude Include="src\shop\Shop.h" />
+    <ClInclude Include="src\entities\Player.h" />
+    <ClInclude Include="src\world\LevelFactory.h" />
+    <ClInclude Include="src\utils\maths\AABB.h" />
+    <ClInclude Include="src\gui\GUITexture.h" />
+    <ClInclude Include="src\renderEngine\GuiRenderer.h" />
+    <ClInclude Include="src\shaders\GuiShader.h" />
+    <ClInclude Include="src\entities\towers\IntelligentTower.h" />
+    <ClInclude Include="src\entities\projectiles\IntelligentTowerProjectile.h" />
+    <ClInclude Include="src\entities\Attacker.h" />
+    <ClInclude Include="src\entities\Destructible.h" />
+    <ClInclude Include="src\entities\projectiles\Projectile.h" />
+    <ClInclude Include="src\entities\projectiles\SampleTowerProjectile.h" />
+    <ClInclude Include="src\entities\enemies\SampleAsteroid.h" />
+    <ClInclude Include="src\input\MouseTransformer.h" />
+    <ClInclude Include="src\entities\enemies\Asteroid.h" />
+    <ClInclude Include="src\entities\enemies\Enemy.h" />
+    <ClInclude Include="src\world\Level1.h" />
+    <ClInclude Include="src\world\Level.h" />
+    <ClInclude Include="src\renderEngine\SelectionRenderer.h" />
+    <ClInclude Include="src\shaders\SelectionShader.h" />
+    <ClInclude Include="src\gameEngine\Configs.h" />
+    <ClInclude Include="src\entities\towers\SampleTower.h" />
+    <ClInclude Include="src\world\Map.h" />
+    <ClInclude Include="src\entities\graphics\Camera.h" />
+    <ClInclude Include="src\entities\graphics\Light.h" />
+    <ClInclude Include="src\shaders\EntityShader.h" />
+    <ClInclude Include="src\renderEngine\Renderer.h" />
+    <ClInclude Include="src\renderEngine\MainRenderer.h" />
+    <ClInclude Include="src\renderEngine\EntityRenderer.h" />
+    <ClInclude Include="src\renderEngine\MapRenderer.h" />
+    <ClInclude Include="src\shaders\MapShader.h" />
+    <ClInclude Include="src\entities\Entity.h" />
+    <ClInclude Include="src\gameEngine\GameEngine.h" />
+    <ClInclude Include="src\gameEngine\GameMemory.h" />
+    <ClInclude Include="src\input\InputController.h" />
+    <ClInclude Include="src\loaders\ModelLoader.h" />
+    <ClInclude Include="src\loaders\TextureLoader.h" />
+    <ClInclude Include="src\models\ModelBank.h" />
+    <ClInclude Include="src\models\RawModel.h" />
+    <ClInclude Include="src\models\TexturedModel.h" />
+    <ClInclude Include="src\renderEngine\WindowManager.h" />
+    <ClInclude Include="src\shaders\SampleShader.h" />
+    <ClInclude Include="src\shaders\ShaderProgram.h" />
+    <ClInclude Include="src\textures\ModelTexture.h" />
+    <ClInclude Include="src\utils\checkers\Checker.h" />
+    <ClInclude Include="src\utils\colors\Color.h" />
+    <ClInclude Include="src\utils\decorators\ContainerUtils.h" />
+    <ClInclude Include="src\utils\logs\Logs.h" />
+    <ClInclude Include="src\utils\maths\Maths.h" />
+    <ClInclude Include="src\utils\time\CurrentTime.h" />
+    <ClInclude Include="src\world\Tile.h" />
+    <ClInclude Include="src\entities\towers\Tower.h" />
+    <ClInclude Include="src\renderEngine\TextRenderer.h" />
+    <ClInclude Include="src\shaders\TextShader.h" />
+    <ClInclude Include="src\entities\graphics\Text.h" />
+    <ClInclude Include="src\world\World.h" />
+    <ClInclude Include="src\entities\projectiles\TowerProjectile.h" />
+    <ClInclude Include="src\utils\time\Timer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\textures\asteroid1_128x128.png" />
+    <Image Include="res\textures\bg_512x512.png" />
+    <Image Include="res\textures\fonts\Holstein.DDS" />
+    <Image Include="res\textures\glass_64x64.png" />
+    <Image Include="res\textures\grassGround_64x64.png" />
+    <Image Include="res\textures\green_128x128.png" />
+    <Image Include="res\textures\green_16x16.png" />
+    <Image Include="res\textures\groundTexTest_128x128.png" />
+    <Image Include="res\textures\ground_64x64.png" />
+    <Image Include="res\textures\intelligentTower2_128x128.png" />
+    <Image Include="res\textures\intelligentTower_128x128.png" />
+    <Image Include="res\textures\sampleTower_128x128.png" />
+    <Image Include="res\textures\select_128x128.png" />
+    <Image Include="res\textures\selectedTowerGUI_128x128.png" />
+    <Image Include="res\textures\spawn_128x128.png" />
+    <Image Include="res\textures\towerTest1_128x128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="res\shaders\entityFragmentShader.fs" />
+    <None Include="res\shaders\entityVertexShader.vs" />
+    <None Include="res\shaders\GUIFragmentShader.fs" />
+    <None Include="res\shaders\GUIVertexShader.vs" />
+    <None Include="res\shaders\mapFragmentShader.fs" />
+    <None Include="res\shaders\mapVertexShader.vs" />
+    <None Include="res\shaders\selectionFragmentShader.fs" />
+    <None Include="res\shaders\selectionVertexShader.vs" />
+    <None Include="res\shaders\textFragmentShader.fs" />
+    <None Include="res\shaders\textVertexShader.vs" />
+    <None Include="res\textures\fonts\tahoma.fnt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

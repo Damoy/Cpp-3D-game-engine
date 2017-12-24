@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Level2" Collapsed="true">
+    <Position X="10.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAABAAAACAAAAACABAAAAACABRAIAABAkAAA=</HashCode>
+      <FileName>src\world\Level2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shop" Collapsed="true">
+    <Position X="16.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACgIAAAEAAAAAAADAAAQAAAAAgAAAAAA=</HashCode>
+      <FileName>src\shop\Shop.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="22" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAggAMAgAQCAAgEAAAAIAQAAhAAgQAAAAIAQAAMBE=</HashCode>
+      <FileName>src\entities\Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelFactory" Collapsed="true">
+    <Position X="18.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAQAAAEASQAAAAAAAAAAAAAAABAAAQAAAACAAAACAA=</HashCode>
+      <FileName>src\world\LevelFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AABB" Collapsed="true">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cHAAAAAAAAAAAAAAAAAAAAACAAAEAAAAAAAAcHAEAAA=</HashCode>
+      <FileName>src\utils\maths\AABB.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GUITexture" Collapsed="true">
+    <Position X="12.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIIAAAAAAgACAAAAAIAACAAggAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\gui\GUITexture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GUIRenderer" Collapsed="true">
+    <Position X="7.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAABQAAAAAAAgAAAEgABAAAAgAAAgAAAAAAAQAAA=</HashCode>
+      <FileName>src\renderEngine\GuiRenderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GUIShader" Collapsed="true">
+    <Position X="9.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCgAAAAAAAQAEAACAAAAACgAAAAAQAgAAAAAAAAMAAA=</HashCode>
+      <FileName>src\shaders\GuiShader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IntelligentTower" Collapsed="true">
+    <Position X="8" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABgAAAAAAAAAAAAAAAAAABQAAAAAEAAA=</HashCode>
+      <FileName>src\entities\towers\IntelligentTower.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IntelligentTowerProjectile" Collapsed="true">
+    <Position X="2" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIBAAAAAAAAAAIAAAAIAAAAgBAEAAA=</HashCode>
+      <FileName>src\entities\projectiles\IntelligentTowerProjectile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Attacker" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAEAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\entities\Attacker.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Destructible" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACAAAgAAAAAAAAAIBAAAAhAAAAAAAFEFAAA=</HashCode>
+      <FileName>src\entities\Destructible.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projectile" Collapsed="true">
+    <Position X="2" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAEAAQAAAAAAAAAEIAA=</HashCode>
+      <FileName>src\entities\projectiles\Projectile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SampleTowerProjectile" Collapsed="true">
+    <Position X="7.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAACAAIAAAAAAAAAAAAEAQCAAAAEAAAAAEAAA=</HashCode>
+      <FileName>src\entities\projectiles\SampleTowerProjectile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SampleAsteroid" Collapsed="true">
+    <Position X="5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIEEAA=</HashCode>
+      <FileName>src\entities\enemies\SampleAsteroid.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MouseTransformer" Collapsed="true">
+    <Position X="20.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAEAAgAAAEAAAACAAAggAAAAAgAAAAACAAAAAA=</HashCode>
+      <FileName>src\input\MouseTransformer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Asteroid" Collapsed="true">
+    <Position X="5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAACQABAAAAAAAAAAA=</HashCode>
+      <FileName>src\entities\enemies\Asteroid.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enemy" Collapsed="true">
+    <Position X="5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAgAAAAAAIAAAAAAACAgAAAAAAAAgAAAAAAAEAAQ=</HashCode>
+      <FileName>src\entities\enemies\Enemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Level1" Collapsed="true">
+    <Position X="12.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAABAAAACAAAAAAABAAAAACABRAIAABAkAAA=</HashCode>
+      <FileName>src\world\Level1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Level" Collapsed="true">
+    <Position X="11.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBCQAoESUAGwAQUIwAEAIgEAAQEARDABBABgAWQVAAI=</HashCode>
+      <FileName>src\world\Level.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SelectionRenderer" Collapsed="true">
+    <Position X="2.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAECBAACACAAAAAIAAAAAAAAIAACAJAAAAQCEQAAA=</HashCode>
+      <FileName>src\renderEngine\SelectionRenderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SelectionShader" Collapsed="true">
+    <Position X="2.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAACAAAAAAgAAIAAAAgAAAAEAAAAAAA=</HashCode>
+      <FileName>src\shaders\SelectionShader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SampleTower" Collapsed="true">
+    <Position X="10.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAQAAAAAEAAA=</HashCode>
+      <FileName>src\entities\towers\SampleTower.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Map" Collapsed="true">
+    <Position X="16.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAA4SIAAABQgAAAAAIDAIAAAAgCAAIAAACAIAGANAAA=</HashCode>
+      <FileName>src\world\Map.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camera" Collapsed="true">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACIAEAAVAQAACAQAFQIBACQAAAAFAoAAAAAmABgAA=</HashCode>
+      <FileName>src\entities\graphics\Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Light" Collapsed="true">
+    <Position X="20.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAACAAAAWIgAAAAAAAACAAAAAgGABAAA=</HashCode>
+      <FileName>src\entities\graphics\Light.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntityShader" Collapsed="true">
+    <Position X="0.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAEQACAAAAAAgAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>src\shaders\EntityShader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renderer" Collapsed="true">
+    <Position X="5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAEAQAAA=</HashCode>
+      <FileName>src\renderEngine\Renderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainRenderer" Collapsed="true">
+    <Position X="15" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RABAkCDAAigAAAgIAACAAAAAAAAAAAAIAAAgACIwAAA=</HashCode>
+      <FileName>src\renderEngine\MainRenderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntityRenderer" Collapsed="true">
+    <Position X="5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAABAAgBAQAAAAAAAAAAAAAYBAAAIAAQQACARBAA=</HashCode>
+      <FileName>src\renderEngine\EntityRenderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MapRenderer" Collapsed="true">
+    <Position X="9.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEABAAAAAQIBAAAAAAAAAAAIIAAAAAAAAECAQAAA=</HashCode>
+      <FileName>src\renderEngine\MapRenderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MapShader" Collapsed="true">
+    <Position X="5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAEAACACAAAAgAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>src\shaders\MapShader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entity" Collapsed="true">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EFA5YICDAoAABAQAQAiWIgAAACAEAAAAQAA4AGENAAA=</HashCode>
+      <FileName>src\entities\Entity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine" Collapsed="true">
+    <Position X="22" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UABAAgAAAAEAAAAiAAAAAAAgAQAAgAIAAAgAAEAAgAA=</HashCode>
+      <FileName>src\gameEngine\GameEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameMemory" Collapsed="true">
+    <Position X="15" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQACAGAAAVAAIAgACAAAwAAgAABACBqARAAISAAAA=</HashCode>
+      <FileName>src\gameEngine\GameMemory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputController" Collapsed="true">
+    <Position X="16.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGBAkoAGgCMYAIAAAiAQANQECCgDEEIJgAAACGAEAAA=</HashCode>
+      <FileName>src\input\InputController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelLoader" Collapsed="true">
+    <Position X="18.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AADABEBIAEAAAAEAAAIAIABAEQBBRBQgCAABAAAAQAA=</HashCode>
+      <FileName>src\loaders\ModelLoader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextureLoader" Collapsed="true">
+    <Position X="22" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAABAEAAAAAAAAGAAAACAAAAAIAAAAAABABA=</HashCode>
+      <FileName>src\loaders\TextureLoader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RawModel" Collapsed="true">
+    <Position X="15" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAACAAAAAAAEAABAAAAAAAAAAAAAAUACA=</HashCode>
+      <FileName>src\models\RawModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TexturedModel" Collapsed="true">
+    <Position X="20.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAIAEAgAAAJAAEAAAAAAEAgAAAAAAAAAIAAE=</HashCode>
+      <FileName>src\models\TexturedModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowManager" Collapsed="true">
+    <Position X="18.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UIIAAAAAQAAABAyITgAAAAACAQAAAQgIAACABDEAAAA=</HashCode>
+      <FileName>src\renderEngine\WindowManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SampleShader" Collapsed="true">
+    <Position X="2.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kCiAABAAAEAAEEAABAAAICAAAAIAQAkAAAgAAAAIAIA=</HashCode>
+      <FileName>src\shaders\SampleShader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShaderProgram" Collapsed="true">
+    <Position X="5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAIAIqAAEAAEAAgAIhQAAxAAAggABhgAAABFIAEIAA=</HashCode>
+      <FileName>src\shaders\ShaderProgram.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelTexture" Collapsed="true">
+    <Position X="12.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAASAQAAAAAAAAAAAQBAAAAAAAgAAIAA=</HashCode>
+      <FileName>src\textures\ModelTexture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Color" Collapsed="true">
+    <Position X="18.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAEAAAQAAAAAAAAAAAAAAQAAAoEQABgAAAASg=</HashCode>
+      <FileName>src\utils\colors\Color.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logs" Collapsed="true">
+    <Position X="22" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAQAEQAEAAAACAAAiAAABEAAAAAAAAACgQAAAAAAA=</HashCode>
+      <FileName>src\utils\logs\Logs.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CurrentTime" Collapsed="true">
+    <Position X="20.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>src\utils\time\CurrentTime.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tile" Collapsed="true">
+    <Position X="15" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAEAEIAQAAAAgABAAAAABAGBFAQA=</HashCode>
+      <FileName>src\world\Tile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tower" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAUAAEAgAAAAAAAAAAAAEAAAAAAQBAAEBEAQA=</HashCode>
+      <FileName>src\entities\towers\Tower.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextRenderer" Collapsed="true">
+    <Position X="0.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAARiAAEQAgAAAAAAAQAAAAAAEgAAAAAAAGgQAAA=</HashCode>
+      <FileName>src\renderEngine\TextRenderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextShader" Collapsed="true">
+    <Position X="7.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAACAAAAEAACAAAAADhAAACAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>src\shaders\TextShader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Text" Collapsed="true">
+    <Position X="18.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAIAAAAAAAAAAAIAIAAAACAAAAAA=</HashCode>
+      <FileName>src\entities\graphics\Text.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="World" Collapsed="true">
+    <Position X="20.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAIAAAAABAAAAAAAQAAAAAAAAACAAAABAAAAEhEAAA=</HashCode>
+      <FileName>src\world\World.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerProjectile" Collapsed="true">
+    <Position X="1" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAgAAAAAAEAAA=</HashCode>
+      <FileName>src\entities\projectiles\TowerProjectile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timer" Collapsed="true">
+    <Position X="16.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBAABEAAAAAAAwAQAgAAggBAAAAgCAABAAAGAEAAA=</HashCode>
+      <FileName>src\utils\time\Timer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
