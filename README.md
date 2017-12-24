@@ -1,6 +1,19 @@
 # Tower3D
 A small Tower-Defense 3D game made in C++ OpenGL from scratch for an university project.
 
+**How to launch:**
+*(Windows)*
+- Download the zip
+- Unzip
+- Make sure you have Visual Studio 15 or 17
+- Launch the Visual solution
+- Upgrade the project if you have Visual 17
+- Click on show all files on the solution explorer to see src, res and class diagram files and include them in the project if they are not
+- Check your configuration, Debug, x86, win32 (if you want 64 or whatever, reproduce the linking as shown in the images below)
+- Right click on the project -> Build
+- Launch
+
+
 **If problems are encountered:
 Please check if you have glut32.dll in the executable folder, and if you build one, check your dependencies :)**
 
